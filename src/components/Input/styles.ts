@@ -15,3 +15,9 @@ export const InputText = styled.input`
         border: solid 2px #431652;
     }
 `;
+
+export const ErrorText = styled.p`
+    color: #802525;
+    font-size: 14px;
+    margin-top: 0;
+`;

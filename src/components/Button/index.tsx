@@ -1,10 +1,11 @@
 import React from 'react'
 import { ButtonStyle } from './styles'
+import { IButtonProps } from './type';
 
 
-const Button = () => {
+const Button = ({...props}: IButtonProps) => {
   return (
-    <ButtonStyle>Entrar</ButtonStyle>
+    <ButtonStyle {...props}>Entrar</ButtonStyle>
   )
 }
 

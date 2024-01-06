@@ -14,4 +14,13 @@ export const ButtonStyle = styled.button`
         cursor: pointer;
         background: #431652;
     }
+
+    &:disabled, &[disabled] {
+        opacity: 0.6;
+
+        &:hover {
+            cursor: default;
+            background: #631f7a;
+        }
+    }
 `;
